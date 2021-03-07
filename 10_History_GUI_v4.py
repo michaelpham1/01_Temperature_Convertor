@@ -10,7 +10,7 @@ class Converter:
 
 
         # Formatting variables...
-        background_color = "light green"
+        background_color = "light blue"
 
         # In actual programming this is blank and populated with user calculations
         self.all_calc_list = ['0 degrees C is -17.8 degrees F',
