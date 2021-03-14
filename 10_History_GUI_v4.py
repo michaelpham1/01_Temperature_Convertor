@@ -67,7 +67,7 @@ class History:
         self.history_text = Label(self.history_frame, text="Here are your most recent "
                                   "calculations. Please use the export button to create a text"
                                   "file of all calculations for this session",
-                               justify=LEFT, width=40, bg=background, wrap=250, font="arial 10 italic",
+                                  justify=LEFT, width=40, bg=background, wrap=250, font="arial 10 italic",
                                   padx=10, pady=10, fg="maroon")
         self.history_text.grid(row=1)
 
@@ -121,3 +121,4 @@ if __name__ == "__main__":
     root.title("Temperature Converter")
     something = Converter()
     root.mainloop()
+
